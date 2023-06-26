@@ -3,11 +3,15 @@ pipeline {
 
     stages {
         stage {
-            echo "Hello"
+            steps {
+                echo "Hello"
+            }
         }
 
         stage {
-            echo "Finish!!!"
+            steps {
+                echo "Finish!!!"
+            }
         }
     }
 }
