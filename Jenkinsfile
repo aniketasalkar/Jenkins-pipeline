@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     stages {
-        stage {
+        stage ("first-stage") {
             steps {
                 echo "Hello"
             }
         }
 
-        stage {
+        stage ("last-stage") {
             steps {
                 echo "Finish!!!"
             }
